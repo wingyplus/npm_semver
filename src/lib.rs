@@ -124,6 +124,7 @@ mod tests {
         assert!(a < b);
         assert!(a <= b);
         assert!(b >= a);
+        assert!(b > a);
 
         let b = Version {
             major: 1,
@@ -133,6 +134,7 @@ mod tests {
         assert!(a < b);
         assert!(a <= b);
         assert!(b >= a);
+        assert!(b > a);
 
         let b = Version {
             major: 2,
@@ -142,5 +144,6 @@ mod tests {
         assert!(a < b);
         assert!(a <= b);
         assert!(b >= a);
+        assert!(b > a);
     }
 }
